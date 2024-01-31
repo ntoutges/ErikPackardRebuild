@@ -35,6 +35,10 @@ export class Section {
         break;
       case "section":
         toAppend = Section.buildSubSection(content.value);
+        break;
+      case "doc":
+        toAppend = Section.buildDocSection(content.value);
+        break;
     }
     if (toAppend) this.body.append(toAppend);
   }
@@ -59,6 +63,27 @@ export class Section {
       const listItem = document.createElement("li");
       const linkObj = linkStr.replace(/\((.+?)\)\[(.+?)\]/g, "<a href=\"$2\" target=\"blank\">$1</a>");
       listItem.innerHTML = linkObj;
+      container.append(listItem);
+    }
+    return container;
+  }
+
+  static buildDocSection(docsArr) {
+    const container = document.createElement("ul");
+    container.classList.add("link-dumps");
+    for (const linkStr of docsArr) {
+      const listItem = document.createElement("li");
+
+      const matchData = (/\((.+?)\)\[(.+?)\]/g).exec(linkStr);
+      if (!matchData) continue;
+      
+      const txt = matchData[1];
+      const uri = encodeURIComponent(matchData[2]);
+      const link = document.createElement("a");
+      link.href = `https://docs.google.com/gview?url=${uri}`;
+      link.target = "_blank";
+      link.innerHTML = txt;
+      listItem.append(link);
       container.append(listItem);
     }
     return container;

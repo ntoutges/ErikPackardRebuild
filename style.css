@@ -41,7 +41,7 @@ body {
   user-select: none;
 
   box-shadow: black 1px 1px 4px;
-  background: #bcbd8d;
+  background: #d2d39f;
 
   font-size: 0.9em;
 }
@@ -66,6 +66,8 @@ body {
 .profile-biography-item-elements {
   margin-left: 6px;
   position: relative;
+
+  user-select: text;
 }
 
 .profile-biography-item-elements::before {
