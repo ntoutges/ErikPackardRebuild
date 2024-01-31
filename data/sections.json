@@ -1,0 +1,30 @@
+{
+  "Classes": {
+    "collapsible": true,
+    "content": {
+      "type": "links",
+      "value": [
+        "(Engineering Calculus II Homework)[https://org.coloradomesa.edu/~epackard/hw136.htm]",
+        "(Algebra Homework)[https://org.coloradomesa.edu/~epackard/hw113.htm]",
+        "(tyop)[efgh]"
+      ]
+    }
+  },
+  "Mountains": {
+    "collapsible": true,
+    "content": {
+      "type": "section",
+      "value": {
+        "test21": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(testlink)[https://www.example.com]"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

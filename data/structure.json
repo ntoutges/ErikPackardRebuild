@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "image": "./graphics/bounce.png",
+    "biography": {
+      "Education": [
+        "B.S., M.S., Ph.D., in Mathematics",
+        "(Texas Tech University)[http://coloradomesa.edu/]"
+      ],
+      "Employment": [
+        "Associate Professor of Mathematics",
+        "(Colorado Mesa University)[http://coloradomesa.edu/]"
+      ],
+      "Contact Info": [
+        "(epackard@coloradomesa.edu)[mailto:epackard@coloradomesa.edu]",
+        "(970-248-1699)[tel:970-248-1699]",
+        "Erik S. Packard/Colorado Mesa University/Grand Junction, CO 81502",
+        "Office: 134N Wubben Hall"
+      ],
+      "Office Hours": [
+        "11:00am - 12:30PM TR",
+        "12::00pm - 1:00pm MW"
+      ]
+    }
+  },
+  "links": [
+    {
+      "title": "Football",
+      "description": "Sports ball stuff",
+      "href": "https://www.example.com",
+      "color": "grey",
+      "img": "favicon.ico"
+    }
+  ],
+  "sections": [
+    "Classes",
+    "Mountains",
+    "Running Events"
+  ]
+}
