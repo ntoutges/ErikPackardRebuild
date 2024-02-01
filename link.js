@@ -24,9 +24,9 @@ export class Link {
 
     // the bulk of this is just to construct the html, and fill it out
     this.img = document.createElement("img");
-    this.img.src = imgSrc;
+    this.img.src = "./graphics/" + imgSrc;
     this.img.classList.add("link-icons");
-    this.img.draggable = "false";
+    this.img.draggable = false;
     this.el.append(this.img);
 
     const bios = document.createElement("div");

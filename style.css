@@ -226,6 +226,7 @@ body {
 
   min-height: 100%;
   width: 50%;
+  min-width: 450px;
 
   transform: translateX(-50%);
   box-shadow: black 0px 0px 4px;
@@ -303,10 +304,11 @@ body {
   padding-left: 20px;
 
   border-bottom: solid 1px black;
+  background: #00000017
 }
 
-.section-headers {
-  background: #00000017
+.section-headers.selected {
+  background: #4574ff40;
 }
 
 .section-headers:not(.collapsible) {
@@ -352,4 +354,10 @@ body {
 .link-dumps {
   margin: 4px 0px 4px 0px;
   padding-left: 25px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }

@@ -97,26 +97,34 @@
   "Mountains": {
     "collapsible": true,
     "content": {
-      "type": "section",
-      "value": {
-        "test21": {
-          "collapsible": true,
-          "content": {
-            "type": "links",
-            "value": [
-              "(testlink)[https://www.example.com]"
-            ]
-          }
-        }
-      }
+      "type": "links",
+      "value": [
+        "(Colorado's 15 Greatest Mountains)[https://org.coloradomesa.edu/~epackard/mts10.html]",
+        "(Erik's USA Peaks Climbed)[http://www.listsofjohn.com/CompletionAll.php?M=Erik+Packard]",
+        "(Foreign Peaks Climbed)[https://org.coloradomesa.edu/~epackard/other.html]"
+      ]
     }
   },
   "Running Events": {
     "collapsible": true,
     "content": {
-      "type": "link",
+      "type": "links",
       "value": [
-        "(Some doc)[http://www.coloradomesa.edu/~epackard/Online%201]"
+        "(Boulder Backroads Photo)[http://www.coloradomesa.edu/~epackard/backroads.htm]",
+        "(Pike's Peak Marathon)[http://www.pikespeakmarathon.org/]",
+        "(Canyonlands Half Marathon)[http://www.moabhalfmarathon.org/]"
+      ]
+    }
+  },
+  "Pets": {
+    "collapsible": true,
+    "content": {
+      "type": "links",
+      "value": [
+        "(Grey Kitty)[https://org.coloradomesa.edu/~epackard/gkit.jpg]",
+        "(Mr. Monkey Man)[https://org.coloradomesa.edu/~epackard/mmm.jpg]",
+        "(Mr. B)[https://org.coloradomesa.edu/~epackard/mrb.jpg]",
+        "(Mrs. B)[https://org.coloradomesa.edu/~epackard/msb.jpg]"
       ]
     }
   }

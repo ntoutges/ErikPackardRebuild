@@ -15,14 +15,23 @@ export class SectionIdentifiers {
     function selectSection(el) {
       const id = el.getAttribute("data-section-id");
 
-      if (this.selected)  this.sections[this.selected].classList.remove("selected");
+      if (this.selected) {
+        this.sections[this.selected].classList.remove("selected");
+        const section = document.querySelector(`div[data-section-name=\"${this.selected}\"]`);
+        if (section) {
+          section.querySelector(".section-headers")?.classList.remove("selected");
+        }
+      }
       this.selected = id ?? null;
-      if (this.selected) this.sections[this.selected].classList.add("selected");
-
-      const section = document.querySelector(`div[data-section-name=\"${id}\"]`);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth" });
-        section.querySelector(".section-headers")?.classList.remove("collapsed");
+      
+      if (this.selected) {
+        this.sections[this.selected].classList.add("selected");
+        const section = document.querySelector(`div[data-section-name=\"${this.selected}\"]`);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+          section.querySelector(".section-headers")?.classList.remove("collapsed");
+          section.querySelector(".section-headers")?.classList.add("selected");
+        }
       }
     }
 

@@ -24,16 +24,46 @@
   },
   "links": [
     {
-      "title": "Football",
-      "description": "Sports ball stuff",
-      "href": "https://www.example.com",
+      "title": "Colorado HS Football",
+      "href": "http://www.coloradomesa.edu/~epackard/cofb.html",
       "color": "grey",
-      "img": "favicon.ico"
+      "img": "football.gif"
+    },
+    {
+      "title": "Colorado HS Basketball",
+      "href": "http://www.coloradomesa.edu/~epackard/nfl.html",
+      "color": "grey",
+      "img": "basketball.gif"
+    },
+    {
+      "title": "College Football",
+      "href": "http://www.coloradomesa.edu/~epackard/ncaafb.html",
+      "color": "grey",
+      "img": "football.gif"
+    },
+    {
+      "title": "College Basketball",
+      "href": "http://www.coloradomesa.edu/~epackard/nfl.html",
+      "color": "grey",
+      "img": "basketball.gif"
+    },
+    {
+      "title": "NFL",
+      "href": "http://www.coloradomesa.edu/~epackard/nfl.html",
+      "color": "grey",
+      "img": "football.gif"
+    },
+    {
+      "title": "NBA",
+      "href": "http://www.coloradomesa.edu/~epackard/nfl.html",
+      "color": "grey",
+      "img": "basketball.gif"
     }
   ],
   "sections": [
     "Classes",
     "Mountains",
-    "Running Events"
+    "Running Events",
+    "Pets"
   ]
 }
