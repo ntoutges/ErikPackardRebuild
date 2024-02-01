@@ -224,7 +224,7 @@ body {
   position: absolute;
   left: 50%;
 
-  height: 100%;
+  min-height: 100%;
   width: 50%;
 
   transform: translateX(-50%);

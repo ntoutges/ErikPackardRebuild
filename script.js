@@ -20,7 +20,8 @@ fetch("./data/structure.json").then(res => res.json()).then(data => {
   if (data.hasOwnProperty("sections")) createSectionsIdentifiers(data.sections);
 });
 
-fetch("./data/sections.json").then(res => res.json()).then(data => {
+fetch("./data/sections.jsonc").then(res => res.text()).then(json => {
+  const data = JSON.parse(json.replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g, (m, g) => g ? "" : m)); // replace comments from jsonc document
   createSections(data);
 });
 

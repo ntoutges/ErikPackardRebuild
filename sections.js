@@ -36,9 +36,6 @@ export class Section {
       case "section":
         toAppend = Section.buildSubSection(content.value);
         break;
-      case "doc":
-        toAppend = Section.buildDocSection(content.value);
-        break;
     }
     if (toAppend) this.body.append(toAppend);
   }
@@ -61,29 +58,27 @@ export class Section {
     container.classList.add("link-dumps");
     for (const linkStr of linksArr) {
       const listItem = document.createElement("li");
-      const linkObj = linkStr.replace(/\((.+?)\)\[(.+?)\]/g, "<a href=\"$2\" target=\"blank\">$1</a>");
-      listItem.innerHTML = linkObj;
-      container.append(listItem);
-    }
-    return container;
-  }
 
-  static buildDocSection(docsArr) {
-    const container = document.createElement("ul");
-    container.classList.add("link-dumps");
-    for (const linkStr of docsArr) {
-      const listItem = document.createElement("li");
+      for (const matchData of linkStr.matchAll(/([^(]*)\((.+?)\)\[(.+?)\]([^(]*)/g)) {
+        const initialText = matchData[1] || "";
+        const finalText = matchData[4] || "";
+        const txt = matchData[2];
 
-      const matchData = (/\((.+?)\)\[(.+?)\]/g).exec(linkStr);
-      if (!matchData) continue;
-      
-      const txt = matchData[1];
-      const uri = encodeURIComponent(matchData[2]);
-      const link = document.createElement("a");
-      link.href = `https://docs.google.com/gview?url=${uri}`;
-      link.target = "_blank";
-      link.innerHTML = txt;
-      listItem.append(link);
+        let uri = matchData[3];
+        const semicolonIndex = uri.lastIndexOf(";")+1;
+        const ext = uri.substring(uri.lastIndexOf(".")+1);
+        const isDoc = ext == "doc" || ext == "docx" || uri.substring(semicolonIndex) == "doc";
+
+        if (isDoc) {
+          if (uri.substring(semicolonIndex) == "doc") uri = uri.substring(0, semicolonIndex-1);
+          uri = `https://docs.google.com/gview?url=${encodeURIComponent(uri)}`;
+        }
+        const link = document.createElement("a");
+        link.href = uri;
+        link.target = "_blank";
+        link.innerHTML = txt;
+        listItem.append(initialText, link, finalText);
+      }
       container.append(listItem);
     }
     return container;

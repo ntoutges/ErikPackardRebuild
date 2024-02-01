@@ -1,0 +1,123 @@
+{
+  /* Format:
+    "type": "links",
+    value is an array of strings in the format of "(<display name>)[<uri>]"
+
+    "type": "section",
+    value is an object with (key,value) pairs of (<section name>, <section data>)
+  */
+
+  "Classes": {
+    "collapsible": true,
+    "content": {
+      "type": "section",
+      "value": {
+        "Engineering Calculus II - MATH 136": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(Syllabus)[http://www.coloradomesa.edu/~epackard/sy136.doc]",
+              "(Homework)[http://www.coloradomesa.edu/~epackard/hw136.htm]"
+            ]
+          }
+        },
+        "Probability & Statistics - STAT 200": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "Syllabi: (12:30PM)[http://www.coloradomesa.edu/~epackard/sylll200y.doc], (2:00PM)[http://www.coloradomesa.edu/~epackard/sylll200z.doc], (3:30PM)[http://www.coloradomesa.edu/~epackard/sylll200x.doc]",
+              "Equation Sheets: (1)[https://org.coloradomesa.edu/~epackard/f1.doc] (2)[https://org.coloradomesa.edu/~epackard/f2.doc] (3)[https://org.coloradomesa.edu/~epackard/f3.doc] (4)[https://org.coloradomesa.edu/~epackard/f4.doc] (5)[https://org.coloradomesa.edu/~epackard/f5.doc]",
+              "Tables: (z)[https://org.coloradomesa.edu/~epackard/tablez.doc] (t)[https://org.coloradomesa.edu/~epackard/tablet.htm] (Chi²)[https://org.coloradomesa.edu/~epackard/tablechisquare.htm] (F)[https://org.coloradomesa.edu/~epackard/ftable.htm] (random)[https://org.coloradomesa.edu/~epackard/randomtable.doc]",
+              "(Example Solutions)[http://www.coloradomesa.edu/~epackard/examplesol.htm]",
+              "(In-Class MESSY Calculations)[http://www.coloradomesa.edu/~epackard/inclassmessycalculations.doc]",
+              "(In-Class Scatterplot for HW 16-18)[http://www.coloradomesa.edu/~epackard/scatterplot.pdf]",
+              "(Lecture Overheads)[http://www.coloradomesa.edu/~epackard/slides.htm]",
+              "(Practice Tests)[http://www.coloradomesa.edu/~epackard/practice.htm]",
+              "(Homework)[http://www.coloradomesa.edu/~epackard/hw2a.htm]",
+              "Short Answer Test Questions: (1)[http://www.coloradomesa.edu/~epackard/Q1.docx] (2)[http://www.coloradomesa.edu/~epackard/Q2.docx] (3)[http://www.coloradomesa.edu/~epackard/Q3.docx] (4)[http://www.coloradomesa.edu/~epackard/Q4.docx] (5)[http://www.coloradomesa.edu/~epackard/Q5.docx]",
+              "Short Answer Test Answers: (1)[http://www.coloradomesa.edu/~epackard/A1.docx] (2)[http://www.coloradomesa.edu/~epackard/A2.docx] (3)[http://www.coloradomesa.edu/~epackard/A3.docx] (4)[http://www.coloradomesa.edu/~epackard/A4.docx] (5)[http://www.coloradomesa.edu/~epackard/A5.docx]",
+              "Short Answer Test Flashcards: (1)[http://www.cram.com/flashcards/stat-200-test-1-8168291] (2)[http://www.cram.com/flashcards/stat-200-test-2-8229477] (3)[http://www.cram.com/flashcards/stat-200-test-3-8267659] (4)[http://www.cram.com/flashcards/stat-200-test-4-8429513] (5)[http://www.cram.com/flashcards/stat-200-test-5-8592469]",
+              "(How to get to Online HW)[http://www.coloradomesa.edu/~epackard/reg200.pdf]",
+              "(Examples from Book)[http://www.coloradomesa.edu/~epackard/bookexamples.htm]"
+            ]
+          }
+        },
+        "Precalculus - MATH 119": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(Syllabus)[http://www.coloradomesa.edu/~epackard/syll119.doc]",
+              "(Homework)[http://www.coloradomesa.edu/~epackard/hw119.htm]",
+              "(ALEKS Tutorial)[http://www.coloradomesa.edu/~epackard/reg119.doc]"
+            ]
+          }
+        },
+        "College Algebra - MATH 113": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(Syllabus)[http://www.coloradomesa.edu/~epackard/syll113.doc]",
+              "(Homework)[http://www.coloradomesa.edu/~epackard/hw113.htm]"
+            ]
+          }
+        },
+        "Applied Number Theory - MATH 560": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(Syllabus)[http://www.coloradomesa.edu/~epackard/sm560.doc]",
+              "(Theorems, Definitions, Unsolved Problems, etc.)[http://www.coloradomesa.edu/~epackard/NTproofs]",
+              "(Proof Outlines)[http://www.coloradomesa.edu/~epackard/NToutlines]",
+              "(HW 1)[http://www.coloradomesa.edu/~epackard/NTHW1;doc]",
+              "(HW 2)[http://www.coloradomesa.edu/~epackard/NTHW2;doc]",
+              "(HW 3)[http://www.coloradomesa.edu/~epackard/NTHW3;doc]",
+              "(Online Assignment 1)[http://www.coloradomesa.edu/~epackard/Online%201;doc]",
+              "(Online Assignment 2)[http://www.coloradomesa.edu/~epackard/Online%202;doc]",
+              "(HW 4)[http://www.coloradomesa.edu/~epackard/NTHW4;doc]",
+              "(HW 5)[http://www.coloradomesa.edu/~epackard/NTHW5;doc]",
+              "(HW 6)[http://www.coloradomesa.edu/~epackard/NTHW6;doc]",
+              "(HW 7)[http://www.coloradomesa.edu/~epackard/NTHW7;doc]",
+              "(HW 8)[http://www.coloradomesa.edu/~epackard/NTHW8;doc]",
+              "(HW 9)[http://www.coloradomesa.edu/~epackard/NTHW9;doc]",
+              "(HW 10)[http://www.coloradomesa.edu/~epackard/NTHW10;doc]",
+              "(Online Assignment 3)[http://www.coloradomesa.edu/~epackard/Online%203;doc]",
+              "(HW 11)[http://www.coloradomesa.edu/~epackard/NTHW11;doc]",
+              "(HW 12)[http://www.coloradomesa.edu/~epackard/NTHW12;doc]"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Mountains": {
+    "collapsible": true,
+    "content": {
+      "type": "section",
+      "value": {
+        "test21": {
+          "collapsible": true,
+          "content": {
+            "type": "links",
+            "value": [
+              "(testlink)[https://www.example.com]"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Running Events": {
+    "collapsible": true,
+    "content": {
+      "type": "link",
+      "value": [
+        "(Some doc)[http://www.coloradomesa.edu/~epackard/Online%201]"
+      ]
+    }
+  }
+}
