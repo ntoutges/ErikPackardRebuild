@@ -63,7 +63,8 @@ function createSections(data) {
       parent: $("#content"),
       title: sectionName,
       content: sectionData.content,
-      collapsible: sectionData.collapsible ?? false
-    })
+      collapsible: sectionData.collapsible ?? false,
+      collapsed: sectionData.collapsed ?? false
+    });
   }
 }

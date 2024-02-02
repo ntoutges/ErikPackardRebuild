@@ -39,23 +39,171 @@
         "Probability & Statistics - STAT 200": {
           "collapsible": true,
           "content": {
-            "type": "links",
-            "value": [
-              "Syllabi: (12:30PM)[http://www.coloradomesa.edu/~epackard/sylll200y.doc], (2:00PM)[http://www.coloradomesa.edu/~epackard/sylll200z.doc], (3:30PM)[http://www.coloradomesa.edu/~epackard/sylll200x.doc]",
-              "Equation Sheets: (1)[https://org.coloradomesa.edu/~epackard/f1.doc] (2)[https://org.coloradomesa.edu/~epackard/f2.doc] (3)[https://org.coloradomesa.edu/~epackard/f3.doc] (4)[https://org.coloradomesa.edu/~epackard/f4.doc] (5)[https://org.coloradomesa.edu/~epackard/f5.doc]",
-              "Tables: (z)[https://org.coloradomesa.edu/~epackard/tablez.doc] (t)[https://org.coloradomesa.edu/~epackard/tablet.htm] (Chi²)[https://org.coloradomesa.edu/~epackard/tablechisquare.htm] (F)[https://org.coloradomesa.edu/~epackard/ftable.htm] (random)[https://org.coloradomesa.edu/~epackard/randomtable.doc]",
-              "(Example Solutions)[http://www.coloradomesa.edu/~epackard/examplesol.htm]",
-              "(In-Class MESSY Calculations)[http://www.coloradomesa.edu/~epackard/inclassmessycalculations.doc]",
-              "(In-Class Scatterplot for HW 16-18)[http://www.coloradomesa.edu/~epackard/scatterplot.pdf]",
-              "(Lecture Overheads)[http://www.coloradomesa.edu/~epackard/slides.htm]",
-              "(Practice Tests)[http://www.coloradomesa.edu/~epackard/practice.htm]",
-              "(Homework)[http://www.coloradomesa.edu/~epackard/hw2a.htm]",
-              "Short Answer Test Questions: (1)[http://www.coloradomesa.edu/~epackard/Q1.docx] (2)[http://www.coloradomesa.edu/~epackard/Q2.docx] (3)[http://www.coloradomesa.edu/~epackard/Q3.docx] (4)[http://www.coloradomesa.edu/~epackard/Q4.docx] (5)[http://www.coloradomesa.edu/~epackard/Q5.docx]",
-              "Short Answer Test Answers: (1)[http://www.coloradomesa.edu/~epackard/A1.docx] (2)[http://www.coloradomesa.edu/~epackard/A2.docx] (3)[http://www.coloradomesa.edu/~epackard/A3.docx] (4)[http://www.coloradomesa.edu/~epackard/A4.docx] (5)[http://www.coloradomesa.edu/~epackard/A5.docx]",
-              "Short Answer Test Flashcards: (1)[http://www.cram.com/flashcards/stat-200-test-1-8168291] (2)[http://www.cram.com/flashcards/stat-200-test-2-8229477] (3)[http://www.cram.com/flashcards/stat-200-test-3-8267659] (4)[http://www.cram.com/flashcards/stat-200-test-4-8429513] (5)[http://www.cram.com/flashcards/stat-200-test-5-8592469]",
-              "(How to get to Online HW)[http://www.coloradomesa.edu/~epackard/reg200.pdf]",
-              "(Examples from Book)[http://www.coloradomesa.edu/~epackard/bookexamples.htm]"
-            ]
+            "type": "section",
+            "value": {
+              "Links": {
+                "collapsible": false,
+                "content": {
+                  "type": "links",
+                  "value": [
+                    "Syllabi: (12:30PM)[http://www.coloradomesa.edu/~epackard/sylll200y.doc], (2:00PM)[http://www.coloradomesa.edu/~epackard/sylll200z.doc], (3:30PM)[http://www.coloradomesa.edu/~epackard/sylll200x.doc]",
+                    "Equation Sheets: (1)[https://org.coloradomesa.edu/~epackard/f1.doc] (2)[https://org.coloradomesa.edu/~epackard/f2.doc] (3)[https://org.coloradomesa.edu/~epackard/f3.doc] (4)[https://org.coloradomesa.edu/~epackard/f4.doc] (5)[https://org.coloradomesa.edu/~epackard/f5.doc]",
+                    "Tables: (z)[https://org.coloradomesa.edu/~epackard/tablez.doc] (t)[https://org.coloradomesa.edu/~epackard/tablet.htm] (Chi²)[https://org.coloradomesa.edu/~epackard/tablechisquare.htm] (F)[https://org.coloradomesa.edu/~epackard/ftable.htm] (random)[https://org.coloradomesa.edu/~epackard/randomtable.doc]",
+                    "(In-Class MESSY Calculations)[http://www.coloradomesa.edu/~epackard/inclassmessycalculations.doc]",
+                    "(In-Class Scatterplot for HW 16-18)[http://www.coloradomesa.edu/~epackard/scatterplot.pdf]",
+                    "Short Answer Test Questions: (1)[http://www.coloradomesa.edu/~epackard/Q1.docx] (2)[http://www.coloradomesa.edu/~epackard/Q2.docx] (3)[http://www.coloradomesa.edu/~epackard/Q3.docx] (4)[http://www.coloradomesa.edu/~epackard/Q4.docx] (5)[http://www.coloradomesa.edu/~epackard/Q5.docx]",
+                    "Short Answer Test Answers: (1)[http://www.coloradomesa.edu/~epackard/A1.docx] (2)[http://www.coloradomesa.edu/~epackard/A2.docx] (3)[http://www.coloradomesa.edu/~epackard/A3.docx] (4)[http://www.coloradomesa.edu/~epackard/A4.docx] (5)[http://www.coloradomesa.edu/~epackard/A5.docx]",
+                    "Short Answer Test Flashcards: (1)[http://www.cram.com/flashcards/stat-200-test-1-8168291] (2)[http://www.cram.com/flashcards/stat-200-test-2-8229477] (3)[http://www.cram.com/flashcards/stat-200-test-3-8267659] (4)[http://www.cram.com/flashcards/stat-200-test-4-8429513] (5)[http://www.cram.com/flashcards/stat-200-test-5-8592469]",
+                    "(How to get to Online HW)[http://www.coloradomesa.edu/~epackard/reg200.pdf]",
+                    "(Examples from Book)[http://www.coloradomesa.edu/~epackard/bookexamples.htm]"
+                  ]
+                }
+              },
+              "Documents": {
+                "collapsible": true,
+                "collapsed": true,
+                "content": {
+                  "type": "section",
+                  "value": {
+                    "Homework": {
+                      "collapsible": true,
+                      "collapsed": true,
+                      "content": {
+                        "type": "links",
+                        "value": [
+                          "(HW #1 - Intro to Probability)[https://org.coloradomesa.edu/~epackard/hw1.doc]",
+                          "(HW #2 - Intro to Normal Curve)[https://org.coloradomesa.edu/~epackard/hw3.doc]",
+                          "(HW #3 - Sampling Distributions)[https://org.coloradomesa.edu/~epackard/hw4.doc]",
+                          "(HW #4 - Describing Data with Pictures)[https://org.coloradomesa.edu/~epackard/hw10.doc]",
+                          "(HW #5 - Describing Data with Numbers)[https://org.coloradomesa.edu/~epackard/hw11.doc]",
+                          "(HW #6 - Intro to Confidence Intervals)[https://org.coloradomesa.edu/~epackard/hwci.doc]",
+                          "(HW #7 - Intro to Hypothesis Test)[https://org.coloradomesa.edu/~epackard/hwht.doc]",
+                          "(HW #8 - HT and CI with t)[https://org.coloradomesa.edu/~epackard/hwtintro.doc]",
+                          "(HW #9 - HT and CI for independent means)[https://org.coloradomesa.edu/~epackard/hwindmeans.doc]",
+                          "(HW #10 - HT and CI for one proportion)[https://org.coloradomesa.edu/~epackard/hw1prop.doc]",
+                          "(HW #11 - HT and CI for two proportions)[https://org.coloradomesa.edu/~epackard/hw2props.doc]",
+                          "(HW #12 - Two Way Tables)[https://org.coloradomesa.edu/~epackard/hw13.doc]",
+                          "(HW #13 - O and E Stuff)[https://org.coloradomesa.edu/~epackard/OEhw.doc]",
+                          "(HW #14 - ANOVA)[https://org.coloradomesa.edu/~epackard/anovahw.doc]",
+                          "(HW #15, #16 - Regression and Correlation)[https://org.coloradomesa.edu/~epackard/regcorhw.doc]",
+                          "(HW #17 - Regression and Correlation)[https://org.coloradomesa.edu/~epackard/regcorhw.doc]",
+                          "(HW #18 - HT and CI for 1 and 2 Variances)[https://org.coloradomesa.edu/~epackard/hw1and2var.doc]",
+                          "(HW #19 - Probability)[https://org.coloradomesa.edu/~epackard/hw6.doc]",
+                          "(HW #20 - More Probability)[https://org.coloradomesa.edu/~epackard/hw7.doc]",
+                          "(HW #21 - Counting)[https://org.coloradomesa.edu/~epackard/hw8.doc]",
+                          "(HW #22 - Binomial Probability)[https://org.coloradomesa.edu/~epackard/hw9.doc]",
+                          "(HW #23 - Random Variables, Means, Variances)[https://org.coloradomesa.edu/~epackard/hw2.doc]",
+                          "(HW #24 - Identify the HT/CI)[https://org.coloradomesa.edu/~epackard/hw29.docx]",
+                          "(HW #25 - More Sampling Distributions)[https://org.coloradomesa.edu/~epackard/hw5.doc]",
+                          "(HW #26 - Sampling)[https://org.coloradomesa.edu/~epackard/hw14.doc]",
+                          "(HW #27 - Experiments)[https://org.coloradomesa.edu/~epackard/hw15.doc]",
+                          "(HW #28 - HT/CI Cautions)[https://org.coloradomesa.edu/~epackard/hwhtcicautions.doc]",
+                          "(HW #29 - BONUS HW - Let's Make a Deal)[https://org.coloradomesa.edu/~epackard/hwbonus.doc]"
+                        ]
+                      }
+                    },
+                    "Homework Solutions": {
+                      "collapsible": true,
+                      "collapsed": true,
+                      "content": {
+                        "type": "links",
+                        "value": [
+                          "(HW #1 - Intro to Probability)[https://org.coloradomesa.edu/~epackard/hw1sol.doc]",
+                          "(HW #2 - Intro to Normal Curve)[https://org.coloradomesa.edu/~epackard/hw3sol.doc]",
+                          "(HW #3 - Sampling Distributions)[https://org.coloradomesa.edu/~epackard/hw4sol.doc]",
+                          "(HW #4 - Describing Data with Pictures)[https://org.coloradomesa.edu/~epackard/hw10sol.doc]",
+                          "(HW #5 - Describing Data with Numbers)[https://org.coloradomesa.edu/~epackard/hw11sol.doc]",
+                          "(HW #6 - Introduction to Confidence Intervals)[https://org.coloradomesa.edu/~epackard/hwcisol.doc]",
+                          "(HW #7 - Introduction to Hypothesis Tests)[https://org.coloradomesa.edu/~epackard/hwhtsol.doc]",
+                          "(HW #8 - HT and CI with t)[https://org.coloradomesa.edu/~epackard/hwtsol.doc]",
+                          "(HW #9 - HT and CI for Independent Means)[https://org.coloradomesa.edu/~epackard/hwindmeanssol.doc]",
+                          "(HW #10 - HT/CI for 1 Proportion)[https://org.coloradomesa.edu/~epackard/hw1propsol.doc]",
+                          "(HW #11 - HT/CI for 2 Proportions )[https://org.coloradomesa.edu/~epackard/hw2propsol.doc]",
+                          "(HW #12 - Two-Way Tables)[https://org.coloradomesa.edu/~epackard/2wayhwsol.doc]",
+                          "(HW #13 - O and E stuff)[https://org.coloradomesa.edu/~epackard/OEhwsol.doc]",
+                          "(HW #14 - ANOVA)[https://org.coloradomesa.edu/~epackard/anovahwsol.doc]",
+                          "(HW #15, #16, #17 - Correlation and Regression)[https://org.coloradomesa.edu/~epackard/regcorhwsol.doc]",
+                          "(HW #18 - 1 and 2 Sample Variances)[https://org.coloradomesa.edu/~epackard/hw1and2varssol.doc]",
+                          "(HW #19 - Probability)[https://org.coloradomesa.edu/~epackard/hw6sol.doc]",
+                          "(HW #20 - More Probability)[https://org.coloradomesa.edu/~epackard/hw7sol.doc]",
+                          "(HW #21 - Counting)[https://org.coloradomesa.edu/~epackard/hw8sol.doc]",
+                          "(HW #22 - Binomial Probability)[https://org.coloradomesa.edu/~epackard/hw9sol.doc]",
+                          "(HW #23 - Random Variables, Means, Variances)[https://org.coloradomesa.edu/~epackard/hw2sol.doc]",
+                          "(HW #24 - Identify the HT/CI)[https://org.coloradomesa.edu/~epackard/hwidsol.doc]",
+                          "(HW #25 - More Sampling Distributions)[https://org.coloradomesa.edu/~epackard/hw5sol.doc]",
+                          "(HW #26 - Sampling)[https://org.coloradomesa.edu/~epackard/hw16sol.doc]",
+                          "(HW #27 - Experiments)[https://org.coloradomesa.edu/~epackard/hw17sol.doc]",
+                          "(HW #28 - HT/CI Cautions)[https://org.coloradomesa.edu/~epackard/hwhtcicautionssol.doc]"
+                        ]
+                      }
+                    },
+                    "Lecture Overheads": {
+                      "collapsible": true,
+                      "collapsed": true,
+                      "content": {
+                        "type": "links",
+                        "value": [
+                          "(Intro to Probability)[http://www.coloradomesa.edu/~epackard/introprobms.doc]",
+                          "(Normal Model)[http://www.coloradomesa.edu/~epackard/normal.doc]",
+                          "(Sampling Distributions)[http://www.coloradomesa.edu/~epackard/samplingdist.doc]",
+                          "(Statistical Thinking/Pictures for Data)[http://www.coloradomesa.edu/~epackard/thinkpictures.doc]",
+                          "(Numbers for Data)[http://www.coloradomesa.edu/~epackard/numbersfordata.doc]",
+                          "(Confidence Intervals)[http://www.coloradomesa.edu/~epackard/confint.doc]",
+                          "(Hypothesis Tests)[http://www.coloradomesa.edu/~epackard/htintro.doc]",
+                          "(Gosset's t)[http://www.coloradomesa.edu/~epackard/gosset.doc]",
+                          "(Independent Means)[http://www.coloradomesa.edu/~epackard/indmeans.doc]",
+                          "(One Proportion)[http://www.coloradomesa.edu/~epackard/1prop.doc]",
+                          "(Two Proportions)[http://www.coloradomesa.edu/~epackard/2props.doc]",
+                          "(Two-Way Table)[http://www.coloradomesa.edu/~epackard/twoway.doc]",
+                          "(O and E Stuff)[http://www.coloradomesa.edu/~epackard/oande.doc]",
+                          "(ANOVA)[http://www.coloradomesa.edu/~epackard/anova.doc]",
+                          "(Correlation/Regression)[http://www.coloradomesa.edu/~epackard/correg.doc]",
+                          "(Linear Regression/Correlation Extended)[http://www.coloradomesa.edu/~epackard/moreregcor.doc]",
+                          "(1 and 2 Variances)[http://www.coloradomesa.edu/~epackard/1and2var.doc]",
+                          "(Probability)[http://www.coloradomesa.edu/~epackard/probability.doc]",
+                          "(Counting Basics and Binomial Probability)[http://www.coloradomesa.edu/~epackard/countingbinomial.doc]",
+                          "(Random Variables)[http://www.coloradomesa.edu/~epackard/randomvariables.doc]",
+                          "(Explaining the Standard Deviation formulas for HTs and CIs)[http://www.coloradomesa.edu/~epackard/Explaining%20SD.docx]",
+                          "(Sampling and Experiments)[http://www.coloradomesa.edu/~epackard/Explaining%20SD.docx]",
+                          "(Cautions and Facts about HTs and CIs)[http://www.coloradomesa.edu/~epackard/htcicautions.doc]",
+                          "(Nonparametric Stats)[http://www.coloradomesa.edu/~epackard/nonpar.doc]"
+                        ]
+                      }
+                    },
+                    "Practice Tests": {
+                      "collapsible": true,
+                      "collapsed": true,
+                      "content": {
+                        "type": "links",
+                        "value": [
+                          "(Practice Final Questions)[https://org.coloradomesa.edu/~epackard/practicefinal.doc]",
+                          "(TEST 1)[https://org.coloradomesa.edu/~epackard/mwft1a.doc]",
+                          "(TEST 2)[https://org.coloradomesa.edu/~epackard/mwft2a.doc]",
+                          "(TEST 3)[https://org.coloradomesa.edu/~epackard/mwft3.doc]",
+                          "(TEST 4)[https://org.coloradomesa.edu/~epackard/mwft4.doc]",
+                          "(TEST 5)[https://org.coloradomesa.edu/~epackard/mwft5.doc]"
+                        ]
+                      }
+                    },
+                    "Practice Test Solutions": {
+                      "collapsible": true,
+                      "collapsed": true,
+                      "content": {
+                        "type": "links",
+                        "value": [
+                          "(Practice Final Questions)[https://org.coloradomesa.edu/~epackard/practicefinalsol.doc]",
+                          "(TEST 1)[https://org.coloradomesa.edu/~epackard/mwft1sola.doc]",
+                          "(TEST 2)[https://org.coloradomesa.edu/~epackard/mwft2sol.doc]",
+                          "(TEST 3)[https://org.coloradomesa.edu/~epackard/mwft3sol.doc]",
+                          "(TEST 4)[https://org.coloradomesa.edu/~epackard/mwft4sol.doc]",
+                          "(TEST 5)[https://org.coloradomesa.edu/~epackard/mwft5sol.doc]"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "Precalculus - MATH 119": {
@@ -82,27 +230,44 @@
         "Applied Number Theory - MATH 560": {
           "collapsible": true,
           "content": {
-            "type": "links",
-            "value": [
-              "(Syllabus)[http://www.coloradomesa.edu/~epackard/sm560.doc]",
-              "(Theorems, Definitions, Unsolved Problems, etc.)[http://www.coloradomesa.edu/~epackard/NTproofs]",
-              "(Proof Outlines)[http://www.coloradomesa.edu/~epackard/NToutlines]",
-              "(HW 1)[http://www.coloradomesa.edu/~epackard/NTHW1;doc]",
-              "(HW 2)[http://www.coloradomesa.edu/~epackard/NTHW2;doc]",
-              "(HW 3)[http://www.coloradomesa.edu/~epackard/NTHW3;doc]",
-              "(Online Assignment 1)[http://www.coloradomesa.edu/~epackard/Online%201;doc]",
-              "(Online Assignment 2)[http://www.coloradomesa.edu/~epackard/Online%202;doc]",
-              "(HW 4)[http://www.coloradomesa.edu/~epackard/NTHW4;doc]",
-              "(HW 5)[http://www.coloradomesa.edu/~epackard/NTHW5;doc]",
-              "(HW 6)[http://www.coloradomesa.edu/~epackard/NTHW6;doc]",
-              "(HW 7)[http://www.coloradomesa.edu/~epackard/NTHW7;doc]",
-              "(HW 8)[http://www.coloradomesa.edu/~epackard/NTHW8;doc]",
-              "(HW 9)[http://www.coloradomesa.edu/~epackard/NTHW9;doc]",
-              "(HW 10)[http://www.coloradomesa.edu/~epackard/NTHW10;doc]",
-              "(Online Assignment 3)[http://www.coloradomesa.edu/~epackard/Online%203;doc]",
-              "(HW 11)[http://www.coloradomesa.edu/~epackard/NTHW11;doc]",
-              "(HW 12)[http://www.coloradomesa.edu/~epackard/NTHW12;doc]"
-            ]
+            "type": "section",
+            "value": {
+              "Links": {
+                "collapsible": false,
+                "content": {
+                  "type": "links",
+                  "value": [
+                    "(Syllabus)[http://www.coloradomesa.edu/~epackard/sm560.doc]",
+                    "(Theorems, Definitions, Unsolved Problems, etc.)[http://www.coloradomesa.edu/~epackard/NTproofs]",
+                    "(Proof Outlines)[http://www.coloradomesa.edu/~epackard/NToutlines;doc]"
+                  ]
+                }
+              },
+              "Homework": {
+                "collapsible": true,
+                "collapsed": true,
+                "content": {
+                  "type": "links",
+                  "value": [
+                    "(HW 1)[http://www.coloradomesa.edu/~epackard/NTHW1;doc]",
+                    "(HW 2)[http://www.coloradomesa.edu/~epackard/NTHW2;doc]",
+                    "(HW 3)[http://www.coloradomesa.edu/~epackard/NTHW3;doc]",
+                    "(Online Assignment 1)[http://www.coloradomesa.edu/~epackard/Online%201;doc]",
+                    "(Online Assignment 2)[http://www.coloradomesa.edu/~epackard/Online%202;doc]",
+                    "(HW 4)[http://www.coloradomesa.edu/~epackard/NTHW4;doc]",
+                    "(HW 5)[http://www.coloradomesa.edu/~epackard/NTHW5;doc]",
+                    "(HW 6)[http://www.coloradomesa.edu/~epackard/NTHW6;doc]",
+                    "(HW 7)[http://www.coloradomesa.edu/~epackard/NTHW7;doc]",
+                    "(HW 8)[http://www.coloradomesa.edu/~epackard/NTHW8;doc]",
+                    "(HW 9)[http://www.coloradomesa.edu/~epackard/NTHW9;doc]",
+                    "(HW 10)[http://www.coloradomesa.edu/~epackard/NTHW10;doc]",
+                    "(Online Assignment 3)[http://www.coloradomesa.edu/~epackard/Online%203;doc]",
+                    "(HW 11)[http://www.coloradomesa.edu/~epackard/NTHW11;doc]",
+                    "(HW 12)[http://www.coloradomesa.edu/~epackard/NTHW12;doc]"
+                  ]
+                }
+              }
+            }
           }
         }
       }

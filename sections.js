@@ -3,7 +3,8 @@ export class Section {
     parent,
     title,
     content,
-    collapsible=true
+    collapsible=true,
+    collapsed=false
   }) {
     this.el = document.createElement("div");
     this.el.classList.add("section-containers");
@@ -21,6 +22,7 @@ export class Section {
       this.header.addEventListener("click", () => {
         this.header.classList.toggle("collapsed");
       });
+      if (collapsed) this.header.classList.add("collapsed");
     }
     
     this.el.append(this.header);
@@ -47,7 +49,8 @@ export class Section {
         "parent": container,
         "content": subsectionData[name].content,
         "title": name,
-        "collapsible": subsectionData[name].collapsible ?? false
+        "collapsible": subsectionData[name].collapsible ?? false,
+        "collapsed": subsectionData[name].collapsed ?? false
       });
     }
     return container;
