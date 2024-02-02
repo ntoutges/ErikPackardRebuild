@@ -1,10 +1,24 @@
+// this file contains all the data for building the content within the sections
+// this is the bulk of the information of the website
+
 {
   /* Format:
     "type": "links",
     value is an array of strings in the format of "(<display name>)[<uri>]"
+    If a <uri> ends with .doc/.docx, the link is interpreted as a document (this will open the link in google docs, instead of on its own)
+    if <uri> ends with ";doc", this part is not included in the actual URI, and instead simply indicates that the link is a document
 
     "type": "section",
     value is an object with (key,value) pairs of (<section name>, <section data>)
+
+    section data format:
+    <Section Name>: {
+      "collapsible": true/false,
+      "content": {
+        "type": "links"/"section",
+        "value": ...
+      }
+    }
   */
 
   "Classes": {
