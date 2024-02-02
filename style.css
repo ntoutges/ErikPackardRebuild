@@ -358,6 +358,8 @@ body {
 
 #copyright {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: 5px;
+  font-size: 10px;
+  color: #0000007a;
 }
