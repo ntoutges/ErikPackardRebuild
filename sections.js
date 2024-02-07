@@ -80,7 +80,18 @@ export class Section {
         link.href = uri;
         link.target = "_blank";
         link.innerHTML = txt;
-        listItem.append(initialText, link, finalText);
+        listItem.append(initialText, link);
+
+        if (isDoc) {
+          const download = document.createElement("a");
+          download.href = encodeURI(matchData[3]);
+          download.setAttribute("download", "");
+          download.classList.add("download-docs");
+          download.setAttribute("title", `download ${txt}`);
+          listItem.append(download);
+        }
+
+        listItem.append(finalText);
       }
       container.append(listItem);
     }
